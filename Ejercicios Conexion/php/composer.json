@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.21",
+        "ext-pgsql": "*",
+        "ext-pdo_pgsql": "*"
+    }
+}
