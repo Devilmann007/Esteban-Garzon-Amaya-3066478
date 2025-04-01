@@ -1,0 +1,106 @@
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa; /* Color de fondo natural */
+    color: #004d40; /* Texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #00796b;
+}
+
+/* Enlaces */
+a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #004d40;
+}
+
+/* Formularios */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+form input:focus {
+    border-color: #00796b;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+}
+
+/* Botón de envío */
+form button {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #004d40;
+}
+
+/* Estilos para mensajes Flash */
+.flash-messages p {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.flash-messages .success {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.flash-messages .error {
+    background-color: #e74c3c;
+    color: white;
+}
